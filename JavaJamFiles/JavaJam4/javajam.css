@@ -1,0 +1,123 @@
+body{ background-color: #FCEBB6;
+		color:#221811;
+		font-family: Veranda, Arial, sans-serif;
+		background-image: url(javajampic/background.gif);
+		 }
+header{
+	background-color: #D2B48C;
+	height: 150px
+	background-image: url(javajampic/javajamlogo.pic);
+	background-repeat: none;
+	}
+
+h1{
+	padding-top: 45px;
+	padding-left: 220px;
+	font-size: 3em;
+}
+nav{
+	text-align:center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+	float: left;
+	width:200px;
+
+}
+
+nav a {
+	text-decoration: none;
+}
+nav : link { color : #fef6c2; }
+nav : visited {color : #D2B48C; }
+nav : hover {color : #cc9933;}
+
+nav ul{list-style-type: none;
+	padding-left: 0;
+}
+
+footer{
+	background-color: #D2B48C;
+	font-size: 0.6em;
+	text-align: center;
+	font-style:italic;
+	padding-bottom: 10px;
+	border-style: solid;
+	border-top: 2px;
+	border-color: #221811;
+}
+ #wrapper{
+ 	background-color:#231814;
+ 	width: 80%;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	min-width: 900px;
+ 	max-width: 1280px;
+ 	box-shadow: 5px 5px 5px 
+ 	
+ }
+
+h4{
+	background-color: #D2B48C;
+font-size:1.2em;
+padding-left: 0.5em;
+padding-bottom: 0.25em;
+text-transform: uppercase;
+border-bottom: ;
+padding-bottom: 0;
+clear: left;
+}
+main{
+	padding-bottom: 2em;
+	padding-right: 0;
+	padding-left: 0;
+	display:block;
+	margin-left: 200px;
+	padding-top: 0;
+	background-color: #fef6c2;
+}
+main h2{padding-left: 3em;
+		padding-right: 2em;}
+main h3{padding-left: 3em;
+		padding-right: 2em;}
+main h4{padding-left: 3em;
+		padding-right: 2em;}
+main p{padding-left: 3em;
+		padding-right: 2em;}
+main div{padding-left: 3em;
+		padding-right: 2em;}
+main ul {padding-left: 3em;
+		padding-right: 2em;}
+main dl {padding-left: 3em;
+		padding-right: 2em;}
+.details{
+	padding-right: 20%;
+	padding-left: 20%;
+	overflow: auto;
+
+}
+img{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+*{ box-sizing: border-box;}
+#heroroad{
+	background-image:url(javajampic/heroroad.jpg);
+background-size: 100%;
+height: 250px;
+}
+#heromugs{ 
+	background-image:url(javajampic/heromugs.jpg);
+background-size:100%;
+height: 250px; }
+#heroguitar{
+	background-image:url(javajampic/heroguitar.jpg);
+background-size:100%;
+height: 250px; }
+
+.floatleft{float:left;
+padding-bottom: 2em;
+padding-right:2em;
+}
+
+header, nav, main, footer {display:block;}
